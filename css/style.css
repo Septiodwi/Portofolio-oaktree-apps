@@ -1,0 +1,430 @@
+                                                    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+                                                body {
+                                                    background-color: black;
+                                                    color: black;
+                                                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                                }
+                                                
+                                                 ::-webkit-scrollbar {
+                                                    width: 15px;
+                                                }
+                                                
+                                                 ::-webkit-scrollbar-track {
+                                                    background-color: rgba(39, 38, 38, 0.78);
+                                                    box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 20, 0);
+                                                }
+                                                
+                                                 ::-webkit-scrollbar-thumb {
+                                                    background-color: #35A893
+                                                }
+                                                /* open navbar */
+                                                
+                                                nav {
+                                                    background: rgba(81, 193, 173, 0.1);
+                                                }
+                                                
+                                                #top-nav {
+                                                    transition: top 0.3s;
+                                                }
+                                                
+                                                .navbar.navbar-expand-xl.navbar-dark .fixed-top {
+                                                    height: 10px;
+                                                }
+                                                
+                                                .navbar-collapse {
+                                                    line-height: 40px;
+                                                    text-align: center;
+                                                    margin-top: 20px;
+                                                    margin-left: -100px;
+                                                }
+                                                
+                                                .navbar-toggler.navbar-toggler-right {
+                                                    color: black;
+                                                    background-color: #35A893
+                                                }
+                                                
+                                                .img-logo {
+                                                    width: auto;
+                                                    height: 35px;
+                                                }
+                                                
+                                                @media (min-width: 576px) {
+                                                    .img-logo {
+                                                        width: auto;
+                                                        height: auto;
+                                                    }
+                                                }
+                                                
+                                                li {
+                                                    display: inline-block;
+                                                    margin-left: 100px;
+                                                }
+                                                
+                                                li a.nav-custom {
+                                                    font-size: 13px;
+                                                    text-decoration: none;
+                                                    color: #515151;
+                                                    font-weight: 600;
+                                                }
+                                                
+                                                li a.nav-custom:hover {
+                                                    color: #35A893;
+                                                }
+                                                
+                                                .nav-custom::after {
+                                                    content: '';
+                                                    display: block;
+                                                    width: 0;
+                                                    height: 2px;
+                                                    background-color: #35A893;
+                                                    transition: width .3s;
+                                                }
+                                                
+                                                .nav-custom:hover::after {
+                                                    width: 100%;
+                                                    transition: width 3s.;
+                                                }
+                                                /* close navbar */
+                                                /* open hero */
+                                                
+                                                .img-fluid {
+                                                    width: 500%;
+                                                }
+                                                
+                                                .img-hero {
+                                                    margin-top: 20%;
+                                                }
+                                                
+                                                @media (min-width: 576px) {
+                                                    .img-fluid {
+                                                        width: 100%;
+                                                    }
+                                                }
+                                                
+                                                p.text-section-banner-2 {
+                                                    color: #EB832D;
+                                                    font-size: 15px;
+                                                    margin-top: -150px;
+                                                    font-weight: 700;
+                                                    margin-left: 1%;
+                                                    margin-bottom: 1px;
+                                                }
+                                                
+                                                @media (min-width: 576px) {
+                                                    p.text-section-banner-2 {
+                                                        font-size: 30px;
+                                                        margin-left: 7px;
+                                                        margin-bottom: -5px;
+                                                        margin-top: -540px;
+                                                    }
+                                                }
+                                                
+                                                h1.text-section-banner-1 {
+                                                    font-size: 12px;
+                                                    font-weight: 780;
+                                                    width: auto;
+                                                    margin-top: 25%;
+                                                    margin-left: 20px;
+                                                    line-height: 35px;
+                                                    letter-spacing: 0.01em;
+                                                    color: #51C1AD;
+                                                }
+                                                
+                                                @media (min-width: 576px) {
+                                                    h1.text-section-banner-1 {
+                                                        font-size: 24px;
+                                                        line-height: 36px;
+                                                        width: auto;
+                                                        margin-top: 29%;
+                                                    }
+                                                }
+                                                
+                                                .text-2020 {
+                                                    width: 20px;
+                                                    color: #EB832D;
+                                                }
+                                                
+                                                p.text-section-banner-3 {
+                                                    color: #B7B6B6;
+                                                    font-size: 9px;
+                                                    font-weight: 700;
+                                                    margin-left: 6%;
+                                                    margin-top: 10px;
+                                                }
+                                                
+                                                @media (min-width: 576px) {
+                                                    p.text-section-banner-3 {
+                                                        font-size: 18px;
+                                                        font-weight: 300;
+                                                        margin-left: 4%;
+                                                        margin-bottom: -5px;
+                                                        margin-top: 50px;
+                                                    }
+                                                }
+                                                
+                                                .btn-banner {
+                                                    cursor: pointer;
+                                                    width: 150px;
+                                                    height: 40px;
+                                                    margin-top: 25px;
+                                                    margin-left: 27%;
+                                                    filter: drop-shadow(0px 4px 13px rgba(33, 88, 199, 0.2));
+                                                    background: #51C1AD;
+                                                    border-radius: 4px;
+                                                    border: none;
+                                                    color: white;
+                                                }
+                                                
+                                                .btn-banner:hover {
+                                                    background-color: teal;
+                                                    transition: 0.3s ease;
+                                                }
+                                                
+                                                @media (min-width: 576px) {
+                                                    .btn-banner {
+                                                        width: 230px;
+                                                        height: 50px;
+                                                        margin-left: 4%;
+                                                        margin-top: 50px;
+                                                    }
+                                                }
+                                                
+                                                p.text-section-banner-4 {
+                                                    color: rgba(0, 0, 0, 0.74);
+                                                    font-size: 10px;
+                                                    font-weight: 700;
+                                                    margin-left: 38%;
+                                                    margin-top: -2px;
+                                                }
+                                                
+                                                @media (min-width: 576px) {
+                                                    p.text-section-banner-4 {
+                                                        font-size: 20px;
+                                                        font-weight: 700;
+                                                        margin-left: 7%;
+                                                        margin-top: -50px;
+                                                    }
+                                                }
+                                                
+                                                .col-md-12 {
+                                                    margin-top: 50px;
+                                                }
+                                                
+                                                @media (min-width: 576px) {
+                                                    .col-md-12 {
+                                                        margin-top: 190px;
+                                                    }
+                                                }
+                                                /* close hero */
+                                                /* open tab */
+                                                
+                                                .tab {
+                                                    width: 173px;
+                                                    height: 60px;
+                                                    border: 1px solid #B7B6B6;
+                                                    box-sizing: border-box;
+                                                    margin-left: 25%;
+                                                    margin-top: 15%;
+                                                }
+                                                
+                                                .text-tab {
+                                                    font-family: Poppins;
+                                                    font-style: normal;
+                                                    font-weight: 600;
+                                                    font-size: 24px;
+                                                    line-height: 36px;
+                                                    /* identical to box height */
+                                                    letter-spacing: 0.01em;
+                                                    color: #747272;
+                                                    text-align: center;
+                                                    margin-top: 10px;
+                                                }
+                                                
+                                                @media (min-width: 576px) {
+                                                    .tab {
+                                                        margin-left: 45%;
+                                                        margin-top: 15%;
+                                                    }
+                                                }
+                                                /* close tab */
+                                                /* open about */
+                                                
+                                                .img-login {
+                                                    width: 100%;
+                                                    margin-top: 15%;
+                                                }
+                                                
+                                                @media (min-width: 576px) {
+                                                    .img-login {
+                                                        margin-top: 15%;
+                                                        width: auto;
+                                                    }
+                                                }
+                                                
+                                                .text-login {
+                                                    width: 200px;
+                                                    height: 151px;
+                                                    font-style: normal;
+                                                    font-weight: bold;
+                                                    font-size: 24px;
+                                                    line-height: 36px;
+                                                    letter-spacing: 0.01em;
+                                                    color: #51C1AD;
+                                                    margin-top: 5%;
+                                                    margin-left: 5%;
+                                                }
+                                                
+                                                @media (min-width: 576px) {
+                                                    .text-login {
+                                                        margin-top: 20%;
+                                                        margin-left: 10%;
+                                                    }
+                                                }
+                                                
+                                                .description-login {
+                                                    width: 270px;
+                                                    height: 151px;
+                                                    font-style: normal;
+                                                    font-weight: 300;
+                                                    font-size: 18px;
+                                                    line-height: 27px;
+                                                    letter-spacing: 0.01em;
+                                                    color: #B7B6B6;
+                                                    margin-left: 5%;
+                                                    margin-top: -30%;
+                                                }
+                                                
+                                                @media (min-width: 576px) {
+                                                    .description-login {
+                                                        margin-left: 10%;
+                                                        margin-top: -20%;
+                                                    }
+                                                }
+                                                
+                                                .text-right {
+                                                    text-align: right;
+                                                    margin-left: 12%;
+                                                }
+                                                
+                                                @media (min-width: 576px) {
+                                                    .text-right {
+                                                        margin-left: 33%;
+                                                    }
+                                                }
+                                                
+                                                .text-right-component {
+                                                    margin-left: 33%;
+                                                }
+                                                
+                                                @media (min-width: 576px) {
+                                                    .text-right-component {
+                                                        margin-left: 45%;
+                                                    }
+                                                }
+                                                
+                                                .img-right {
+                                                    margin-top: -20%;
+                                                }
+                                                
+                                                @media (min-width: 576px) {
+                                                    .img-right {
+                                                        margin-top: 15%;
+                                                    }
+                                                }
+                                                /* close about */
+                                                /* open contact */
+                                                
+                                                .box {
+                                                    padding: 10px;
+                                                    padding-left: 7%;
+                                                    margin-top: -5%;
+                                                    margin-left: 7%;
+                                                }
+                                                
+                                                a {
+                                                    text-decoration: none;
+                                                }
+                                                
+                                                .box:hover {
+                                                    cursor: pointer;
+                                                    background-color: rgb(2, 199, 199);
+                                                    transition: 0.3s ease;
+                                                }
+                                                
+                                                @media (min-width: 576px) {
+                                                    .box {
+                                                        padding-left: 2%;
+                                                        margin-top: -10%;
+                                                        margin-left: 40%;
+                                                    }
+                                                }
+                                                
+                                                .contact-whatsapp {
+                                                    width: 174px;
+                                                    height: 36px;
+                                                    font-style: normal;
+                                                    font-weight: normal;
+                                                    font-size: 24px;
+                                                    line-height: 36px;
+                                                    /* identical to box height */
+                                                    letter-spacing: 0.01em;
+                                                    color: #458943;
+                                                    margin-top: -15%;
+                                                    margin-left: 25%;
+                                                }
+                                                
+                                                .box {
+                                                    width: 288px;
+                                                    height: 60px;
+                                                    background: rgba(100, 177, 97, 0.15);
+                                                    border-radius: 100px;
+                                                }
+                                                
+                                                .box-custom {
+                                                    background: rgba(33, 88, 199, 0.15);
+                                                    margin-top: -10%;
+                                                }
+                                                
+                                                @media (min-width: 576px) {
+                                                    .box-custom {
+                                                        margin-top: -20%;
+                                                    }
+                                                }
+                                                
+                                                .contact-custom {
+                                                    margin-left: 30%;
+                                                    color: rgb(1, 1, 175);
+                                                }
+                                                /* close contact */
+                                                /* open footer */
+                                                
+                                                .box-footer {
+                                                    width: auto;
+                                                    height: 60px;
+                                                    border: 1px solid #B7B6B6;
+                                                    box-sizing: border-box;
+                                                    text-align: center;
+                                                }
+                                                
+                                                .text-copyright {
+                                                    width: auto;
+                                                    height: 27px;
+                                                    font-style: normal;
+                                                    font-weight: 500;
+                                                    font-size: 12px;
+                                                    line-height: 27px;
+                                                    /* identical to box height */
+                                                    letter-spacing: 0.01em;
+                                                    color: #747272;
+                                                    margin-left: 0%;
+                                                    margin-top: 3%;
+                                                }
+                                                
+                                                @media (min-width: 576px) {
+                                                    .text-copyright {
+                                                        width: 514px;
+                                                        font-size: 18px;
+                                                        margin-left: 30%;
+                                                        margin-top: 1%;
+                                                    }
+                                                    /* close footer */
